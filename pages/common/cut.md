@@ -1,7 +1,7 @@
 # cut
 
 > Cut out fields from `stdin` or files.
-> More information: <https://www.gnu.org/software/coreutils/cut>.
+> More information: <https://www.gnu.org/software/coreutils/manual/html_node/cut-invocation.html>.
 
 - Print a specific [c]haracter/[f]ield range of each line:
 
@@ -9,7 +9,7 @@
 
 - Print a [f]ield range of each line with a specific [d]elimiter:
 
-`{{command}} | cut --delimiter "{{,}}" --fields {{1}}`
+`{{command}} | cut --delimiter "{{delimiter}}" --fields {{1|1,10|1-10|1-|-10}}`
 
 - Print a [c]haracter range of each line of the specific file:
 
